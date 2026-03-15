@@ -39,7 +39,9 @@ The project implements an ETL pipeline that:
 ## Architecture
 
 Shopify API 
+
 ↓
+
 Python Extraction Layer 
 ↓
 Raw Data Table (MySQL) 
