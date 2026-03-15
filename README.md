@@ -1,7 +1,6 @@
 # Shopify-ETL-Data-Pipeline
 End-to-end Shopify ETL pipeline built with Python, MySQL, and Apache Airflow for automated data ingestion and transformation.
 
-# Shopify ETL Data Pipeline
 
 ## Overview
 
@@ -108,6 +107,7 @@ Example:
 SHOPIFY_SHOP=your-store.myshopify.com
 
 SHOPIFY_TOKEN=your_shopify_access_token
+
 
 MYSQL_USER=etl_user
 
