@@ -43,16 +43,27 @@ Shopify API
 ↓
 
 Python Extraction Layer 
+
 ↓
+
 Raw Data Table (MySQL) 
+
 ↓
+
 Transformation Layer 
+
 ↓
+
 Staging Table 
+
 ↓
+
 Final Analytics Table 
+
 ↓
+
 Apache Airflow Scheduler 
+
 
 ---
 
