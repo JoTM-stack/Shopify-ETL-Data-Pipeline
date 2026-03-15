@@ -88,28 +88,6 @@ Environment Variables
 
 ---
 
-## Project Structure
-
-shopify-etl-pipeline/
-
-dags/
-    etl_dag.py
-
-shopify_etl/
-    extract/
-    transform/
-    load/
-    main.py
-
-logs/
-
-.env.example
-.gitignore
-requirements.txt
-README.md
-
----
-
 ## Pipeline Workflow
 
 1. The pipeline sends a request to the Shopify API to retrieve product data.
