@@ -121,13 +121,13 @@ Sensitive credentials are excluded from the repository for security.
 
 ## Pipeline DAG
 
-![Airflow DAG](images/airflow_pipeline_A.png)
+![Airflow DAG](shopify-etl-pipeline/images/airflow_pipeline_A.png)
 
 
-![Airflow DAG](images/airflow_pipeline_A.png)
+![Airflow DAG](shopify-etl-pipeline/images/airflow_pipeline_A.png)
 
 
-![Airflow DAG](images/airflow_pipeline_A.png)
+![Airflow DAG](shopify-etl-pipeline/images/airflow_pipeline_A.png)
 
 ---
 
