@@ -135,7 +135,7 @@ Sensitive credentials are excluded from the repository for security.
 
 1. Download the repository
 
-    https://github.com/JoTM-stack/shopify-etl-pipeline.git
+    https://github.com/JoTM-stack/Shopify-ETL-Pipeline
 
 2. Navigate into the project
 
