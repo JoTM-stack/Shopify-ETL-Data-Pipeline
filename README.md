@@ -28,10 +28,15 @@ This project solves that problem by building an automated pipeline that extracts
 The project implements an ETL pipeline that:
 
 • Extracts product data from the Shopify API
+
 • Stores raw API responses in a raw data table
+
 • Transforms the data into structured records
+
 • Loads processed data into staging and final tables
+
 • Uses Apache Airflow to orchestrate and schedule the pipeline
+
 • Logs pipeline activity for monitoring and debugging
 
 ---
@@ -70,10 +75,15 @@ Apache Airflow Scheduler
 ## Technologies Used
 
 Python
+
 Apache Airflow
+
 MySQL
+
 Shopify REST API
+
 Logging
+
 Environment Variables
 
 ---
@@ -160,16 +170,6 @@ airflow scheduler
 The pipeline runs as an Apache Airflow DAG that executes the ETL process automatically.
 
 Airflow provides monitoring, logging, and scheduling capabilities to ensure reliable data ingestion.
-
----
-
-## Future Improvements
-
-• Containerize the pipeline using Docker
-• Integrate cloud storage such as Amazon S3
-• Implement a data warehouse layer
-• Add data validation checks
-• Extend the pipeline to ingest orders and customer data
 
 ---
 
