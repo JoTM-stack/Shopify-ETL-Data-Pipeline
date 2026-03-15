@@ -129,7 +129,7 @@ Sensitive credentials are excluded from the repository for security.
 
 1. Clone the repository
 
-    git clone https://github.com/yourusername/shopify-etl-pipeline.git
+    git clone https://github.com/JoTM-stack/shopify-etl-pipeline.git
 
 2. Navigate into the project
 
