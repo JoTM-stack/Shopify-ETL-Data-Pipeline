@@ -106,10 +106,13 @@ To run this project locally, create a `.env` file in the project root.
 Example:
 
 SHOPIFY_SHOP=your-store.myshopify.com
+
 SHOPIFY_TOKEN=your_shopify_access_token
 
 MYSQL_USER=etl_user
+
 MYSQL_PASSWORD=etl_password
+
 MYSQL_DB=shopify_etl
 
 Sensitive credentials are excluded from the repository for security.
@@ -120,26 +123,27 @@ Sensitive credentials are excluded from the repository for security.
 
 1. Clone the repository
 
-git clone https://github.com/yourusername/shopify-etl-pipeline.git
+    git clone https://github.com/yourusername/shopify-etl-pipeline.git
 
 2. Navigate into the project
 
-cd shopify-etl-pipeline
+    cd shopify-etl-pipeline
 
 3. Install dependencies
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Configure environment variables
 
-Create a `.env` file and add your Shopify credentials.
+    Create a `.env` file and add your Shopify credentials.
 
 5. Start Apache Airflow
 
-airflow webserver -p 8080
-airflow scheduler
+    airflow webserver -p 8080
+   
+    airflow scheduler
 
-6. Trigger the DAG from the Airflow UI.
+7. Trigger the DAG from the Airflow UI.
 
 ---
 
