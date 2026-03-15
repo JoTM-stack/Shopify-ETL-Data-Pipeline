@@ -119,6 +119,12 @@ Sensitive credentials are excluded from the repository for security.
 
 ---
 
+## Pipeline DAG
+
+![Airflow DAG](images/airflow_pipeline.png)
+
+---
+
 ## Setup Instructions
 
 1. Clone the repository
