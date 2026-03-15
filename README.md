@@ -38,19 +38,19 @@ The project implements an ETL pipeline that:
 
 ## Architecture
 
-Shopify API
+Shopify API 
 ↓
-Python Extraction Layer
+Python Extraction Layer 
 ↓
-Raw Data Table (MySQL)
+Raw Data Table (MySQL) 
 ↓
-Transformation Layer
+Transformation Layer 
 ↓
-Staging Table
+Staging Table 
 ↓
-Final Analytics Table
+Final Analytics Table 
 ↓
-Apache Airflow Scheduler
+Apache Airflow Scheduler 
 
 ---
 
