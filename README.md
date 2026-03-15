@@ -127,13 +127,13 @@ Sensitive credentials are excluded from the repository for security.
 
 ## Setup Instructions
 
-1. Clone the repository
+1. Download the repository
 
-    git clone https://github.com/JoTM-stack/shopify-etl-pipeline.git
+    https://github.com/JoTM-stack/shopify-etl-pipeline.git
 
 2. Navigate into the project
 
-    cd shopify-etl-pipeline
+    shopify-etl-pipeline
 
 3. Install dependencies
 
