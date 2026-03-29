@@ -1,10 +1,10 @@
-# Shopify-ETL-Data-Pipeline
-End-to-end Shopify ETL pipeline built with Python, MySQL, and Apache Airflow for automated data ingestion and transformation.
+# Shopify-Data-Pipeline
+End-to-end Shopify pipeline built with Python, MySQL, and Apache Airflow for automated data ingestion and transformation.
 
 
 ## Overview
 
-This project implements an automated ETL (Extract, Transform, Load) pipeline that extracts product data from the Shopify API, processes the data using Python, and loads it into a MySQL database.
+This project implements an automated pipeline that extracts product data from the Shopify API, processes the data using Python, and loads it into a MySQL database.
 
 The pipeline is orchestrated using Apache Airflow to automate scheduling and execution.
 
@@ -24,7 +24,7 @@ This project solves that problem by building an automated pipeline that extracts
 
 ## Solution
 
-The project implements an ETL pipeline that:
+The project implements pipeline that:
 
 • Extracts product data from the Shopify API
 
